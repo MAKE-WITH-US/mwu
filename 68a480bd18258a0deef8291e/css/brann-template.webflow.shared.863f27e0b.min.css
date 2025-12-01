@@ -2909,6 +2909,10 @@ blockquote {
 .spacing {
   height: 0;
 }
+.hover-thumb_image img {
+  width: 100%;
+  height: 100%;
+}
 .spacing:where(.w-variant-1f4fa802-5809-9a64-b383-9d70eab575ff) {
   height: var(--_spacing---4);
 }
@@ -4434,8 +4438,6 @@ blockquote {
 }
 .hover-thumb_image {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
   position: absolute;
   inset: 0%;
 }
